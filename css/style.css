@@ -1,0 +1,129 @@
+:root {
+  --double-spanish-white: #e9d1bd;
+  --dark-burgundy: #6b0606;
+  --rock-blue: #9eb2d0;
+  --persian-red: #d03830;
+  --wood-bark: #2e0706;
+  --mexican-red: #a62822;
+  --russett: #85605b;
+  --mountbatten-pink: #9c7486;
+  --cosmic: #733846;
+}
+
+@font-face {
+  font-family: "AzonixRegular";
+  src: url("/assets/fonts/AzonixRegular.ttf.woff") format("woff"),
+    url("/assets/fonts/AzonixRegular.ttf.svg#AzonixRegular") format("svg"),
+    url("/assets/fonts/AzonixRegular.ttf.eot"),
+    url("/assets/fonts/AzonixRegular.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-burgundy);
+  font-family: "AzonixRegular";
+  color: white;
+}
+
+/* Header CSS */
+header {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+.titre {
+  padding: 20px;
+  text-align: center;
+  padding-left: 50px;
+}
+#novo {
+  display: block;
+}
+header ul li {
+  padding: 30px;
+}
+
+.point {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* Header CSS */
+
+/* Banner CSS */
+
+.banner {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-contain {
+  width: 30%;
+}
+
+.banner-contain h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 0;
+  font-size: 6.5rem;
+  font-stretch: ultra-expanded;
+}
+
+.banner-contain h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 0;
+  font-size: 3.7rem;
+  font-stretch: ultra-expanded;
+}
+
+.banner-contain h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 0;
+  font-size: 2.5rem;
+  font-stretch: ultra-expanded;
+}
+
+.banner-contain p {
+  color: rgba(214, 154, 42, 0.897);
+  font-size: 20;
+  margin-bottom: 30px;
+}
+
+.banner-image img {
+  height: 500px;
+  width: 650px;
+  filter: opacity(80%);
+}
+
+#icon {
+  background-color: orange;
+  padding: 10px;
+  font-size: 25px;
+}
+
+#icon-text {
+  background: linear-gradient(to right,var(--dark-burgundy), var(--mexican-red));
+  padding: 10px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Banner CSS */
