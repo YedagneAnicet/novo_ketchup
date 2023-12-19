@@ -120,10 +120,67 @@ header ul li {
 }
 
 #icon-text {
-  background: linear-gradient(to right,var(--dark-burgundy), var(--mexican-red));
+  background: linear-gradient(
+    to right,
+    var(--dark-burgundy),
+    var(--mexican-red)
+  );
   padding: 10px;
   font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /* Banner CSS */
+
+/* Products CSS */
+.products {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.products h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.products-list {
+  display: flex;
+}
+.product-item {
+  position: relative;
+  background: linear-gradient(var(--dark-burgundy) 35%, var(--wood-bark));
+  border: 1px var(--double-spanish-white) solid;
+  margin: 5px;
+  padding: 5px;
+  height: 300px;
+  width: 250px;
+  font-size: 11px;
+}
+
+.product-image img {
+  height: 150px;
+  width: 80px;
+}
+.product-image {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#star i {
+  color: yellow;
+  margin: 3px;
+}
+
+#panier {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: orange;
+  padding: 13px;
+  font-size: 20px;
+  border-radius: 28px 0px 0px 0px;
+  -webkit-border-radius: 28px 0px 0px 0px;
+  -moz-border-radius: 28px 0px 0px 0px;
+  text-align: center;
+}
+/* Products CSS */
