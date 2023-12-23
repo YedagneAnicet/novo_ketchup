@@ -138,9 +138,15 @@ header ul li {
   width: 60%;
 }
 
-.products h1 {
+.products h1{
   text-align: center;
   font-size: 2.5rem;
+}
+
+.dots {
+  text-align: center;
+  font-size: 75px;
+  margin: 0;
 }
 
 .products-list {
@@ -149,7 +155,8 @@ header ul li {
 .product-item {
   position: relative;
   background: linear-gradient(var(--dark-burgundy) 35%, var(--wood-bark));
-  border: 1px var(--double-spanish-white) solid;
+  border: 1px hsla(0, 0%, 99%, 0.39) solid;
+  border-radius: 7px 7px 0px 0px;
   margin: 5px;
   padding: 5px;
   height: 300px;
@@ -158,8 +165,8 @@ header ul li {
 }
 
 .product-image img {
-  height: 150px;
-  width: 80px;
+  height: 200px;
+  width: 200px;
 }
 .product-image {
   margin-top: 10px;
@@ -176,11 +183,24 @@ header ul li {
   right: 0px;
   bottom: 0px;
   background-color: orange;
-  padding: 13px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 30px;
   border-radius: 28px 0px 0px 0px;
   -webkit-border-radius: 28px 0px 0px 0px;
   -moz-border-radius: 28px 0px 0px 0px;
   text-align: center;
 }
 /* Products CSS */
+
+/* Testimonial CSS */
+.testimonial {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.testimonial h1{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* Testimonial CSS */
